@@ -2,8 +2,7 @@
 
 ## Contexto
 
-Como parte del desarrollo de un sistema de gestión para un lubricentro, tuve que diseñar y crear una base de datos desde cero. El sistema debía registrar clientes, proveedores, productos, ventas y gastos, y sobre esos datos se generan análisis de forma automática. Por eso, la calidad del modelo de datos no era un detalle técnico menor: cualquier error en el diseño se trasladaba directamente a los reportes y análisis del negocio.
-
+Como parte del desarrollo de un sistema de gestión para un lubricentro, tuve que diseñar y crear una base de datos desde cero utilizando **Excel** como plataforma, integrando **Power Query** para la transformación y limpieza de datos, **tablas y gráficos dinámicos** para los análisis y **VBA** para la automatización de procesos. El sistema debía registrar clientes, proveedores, productos, ventas y gastos, y sobre esos datos los análisis se generan de manera automática. Por eso, la calidad del modelo de datos no era un detalle menor: cualquier error en el diseño se trasladaba directamente a los reportes del negocio.
 ## Problema
 
 El principal desafío fue el modelado de los datos. Necesitaba garantizar la consistencia de la información para evitar registros duplicados de clientes, proveedores, productos, ventas y gastos, algo que al principio ocurría con frecuencia y distorsionaba los análisis.

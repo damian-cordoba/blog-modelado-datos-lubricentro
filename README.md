@@ -1,4 +1,4 @@
-# Diseñando la base de datos de mi sistema de gestión: consistencia, claves y pagos diferidos
+# Mi experiencia diseñando desde cero la base de datos de un sistema de gestión en Excel: consistencia, claves y pagos diferidos
 
 ## Contexto
 

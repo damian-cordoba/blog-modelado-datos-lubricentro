@@ -20,6 +20,26 @@ A partir de ese diagnóstico:
 - Incorporé restricciones y validaciones para impedir la carga de registros duplicados.
 - Diseñé tablas auxiliares específicas: una tabla de **detalle de pagos** para controlar los pagos diferidos de cada venta, y una tabla de **historial de costos** para registrar la evolución del costo de cada producto en el tiempo.
 
+## El sistema en funcionamiento
+
+> Las capturas usan **datos de demostración**: los montos, cheques y proveedores son ficticios.
+
+**Reporte general:** ventas, gastos y compras a proveedores, con filtro por período.
+
+![Reporte general del sistema](docs/capturas/01-reporte-general.png)
+
+**Registro de ventas:** cada venta calcula el costo del servicio, el costo de las cuotas, la retención y el monto neto.
+
+![Registro de ventas](docs/capturas/02-registro-de-ventas.png)
+
+**Control de cheques:** seguimiento de los cheques emitidos a proveedores y su estado.
+
+![Control de cheques](docs/capturas/03-control-de-cheques.png)
+
+**Formulario de compra (VBA):** carga de compras a proveedores desde un UserForm.
+
+![Formulario de registro de compra](docs/capturas/04-formulario-de-compra.png)
+
 ## Aprendizajes
 
 Esta experiencia me permitió comprender que un buen modelo de datos no consiste solamente en crear tablas que "funcionen", sino en organizar la información de manera que se reduzca la redundancia, se mantenga la integridad y el modelo pueda crecer con el negocio.
